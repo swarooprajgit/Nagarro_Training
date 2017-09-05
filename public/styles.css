@@ -1,0 +1,88 @@
+h1{
+    background-color: #fff9be;
+    text-align: center;
+
+}
+.breathHorizontal{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.breathVertical{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div.todoStatusACTIVE{
+    color: blue;
+}
+div.todoStatusCOMPLETE{
+    color:green;
+    text-decoration: line-through;
+}
+div.todoStatusDELETED{
+    color:red;
+    text-decoration: line-through;
+}
+
+#todo_list_div{
+    border-bottom: solid;
+    margin-left: 40px;
+    /*border-top: solid;*/
+    padding: 10px;
+}
+#complete_div{
+    border-bottom: solid;
+    margin-left: 40px;
+    /*border-top: solid;*/
+    padding: 10px;
+}
+#delete_div{
+    border-bottom: solid;
+    /*border-top: solid;*/
+    padding: 10px;
+}
+#add_todo{
+    border-bottom: solid;
+    /*border-top: solid;*/
+   padding: 10px;
+}
+h2{
+    color: silver;
+}
+input[type='text']{
+    border-top:none;
+    border-bottom: solid ;
+    border-left: none;
+    border-right:none;
+}
+button{
+    background-color: #8bc4ff;
+    border: none;
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+}
+#delete{
+    background-color: transparent;
+    border: none;
+    color: red;
+}
+#hide{
+    background-color: transparent;
+    border: none;
+    color: blue;
+
+
+}
+#hide1{
+    background-color: transparent;
+    border: none;
+    color: blue;
+
+}
+#complete_button{
+    position: absolute;
+    left:20px;
+    height: 20px;
+    width: 20px;
+}
